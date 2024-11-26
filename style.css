@@ -1,0 +1,57 @@
+:root{
+    --dark: rgb(37, 37, 37);
+    --light: rgba(255, 255, 255, 0.959);
+    --green: rgb(55, 137, 55);
+    --light-green: rgb(151, 211, 154);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace; 
+}
+
+body{
+    background-color: var(--dark);
+}
+
+#content{
+    background-color: var(--light);
+    border: solid 1px white;
+    padding: 25px;
+    position: fixed;
+    left: 38%;
+    top: 25%;
+    margin: auto;
+    width: 50vh;
+    min-height: 40vh;
+    height: auto;
+    border-radius: 5px;
+}
+
+#content p#quote{
+    padding-top: 50px;
+    color: var(--green);
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#content p#author{
+    color: var(--light-green);
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+#content button{
+    padding: 5px;
+    background-color: var(--green);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.75em;
+    color: var(--dark);
+    margin: 5vh 10vw;
+    cursor: pointer;
+
+}
